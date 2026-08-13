@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background hati melayang -->
+  <div id="hearts-container"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="subtitle">Selamat hari jadian ke-</p>
+      <h1 class="years">🥳</h1>
+      <h2 class="couple-names">Mohammad Rizky fadillah <span class="heart-icon">💗</span>Kayla frillia ahmadita</h2>
+
+      <div class="photo-frame">
+        <img src="bioskop.jpeg" alt="Foto Berdua" id="couple-photo">
+        <div class="tape tape-left"></div>
+        <div class="tape tape-right"></div>
+      </div>
+
+      <p class="tagline">Seseorang, yang membuat hidupku jadi lebih berwarna ✨</p>
+    </div>
+    <div class="scroll-down">↓ scroll yuk ↓</div>
+  </section>
+
+  <!-- COUNTER -->
+  <section class="counter-section">
+    <h2>Kita udah bareng selama</h2>
+    <div class="counter-grid">
+      <div class="counter-box">
+        <span id="days">0</span>
+        <p>Hari</p>
+      </div>
+      <div class="counter-box">
+        <span id="hours">0</span>
+        <p>Jam</p>
+      </div>
+      <div class="counter-box">
+        <span id="minutes">0</span>
+        <p>Menit</p>
+      </div>
+      <div class="counter-box">
+        <span id="seconds">0</span>
+        <p>Detik</p>
+      </div>
+    </div>
+    <p class="counter-caption">...dan masih akan terus bertambah 🥹</p>
+  </section>
+
+  <!-- GALERI FOTO -->
+  <section class="gallery-section">
+    <h2>Kenangan Ucul KItaaa 📸</h2>
+    <div class="gallery-grid">
+      <img src="band.jpeg" alt="Kenangan 1">
+      <img src="miror.jpeg" alt="Kenangan 2">
+      <img src="futsal.jpeg" alt="Kenangan 3">
+      <img src="jadul.jpeg" alt="Kenangan 4">
+    </div>
+  </section>
+
+  <!-- SURAT CINTA -->
+  <section class="letter-section">
+    <h2>Ada sesuatu buat kamu...</h2>
+    <button id="open-letter-btn">Buka Suratnya 💌</button>
+
+    <div class="envelope-overlay" id="envelope-overlay">
+      <div class="letter-card">
+        <button class="close-btn" id="close-letter-btn">✕</button>
+        <h3>Untuk Kayla My Princes,</h3>
+        <p id="letter-text">
+          Terima kasih sudah memilih untuk terus berjalan bareng aku sampai hari ini.
+          Setiap hari bareng kamu selalu terasa spesial, meskipun cuma hal-hal kecil.
+          Makasih udah sabar hadapin aku, makasih udah selalu ada.
+          Semoga hubungan kita terus dijaga, terus tumbuh, dan makin banyak cerita bahagia yang kita tulis bareng-bareng.
+          Aku sayang kamu, hari ini, besok, dan seterusnya. 💗
+        </p>
+        <p class="signature">— Selalu cinta kamu</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERAKTIF: TOMBOL LUCU -->
+  <section class="question-section">
+    <h2>Kamu masih sayang aku nggak? 🥺</h2>
+    <div class="button-group">
+      <button id="yes-btn">Sayang banget 😍</button>
+      <button id="no-btn">Nggak</button>
+    </div>
+    <p id="answer-text"></p>
+  </section>
+
+  <footer>
+    <p>Dibuat dengan 💗 untuk hari jadian kita</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
